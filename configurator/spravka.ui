@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>spravka</class>
+ <widget class="QWidget" name="spravka">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>656</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Для конфигурирования базы необходимо ввести адрес сервера
+ и его порт, логин и пароль администратора.
+После успешного входа необходимо выбрать базу, 
+которую будем конфигурировать.
+Для того, чтобы создать комнату необходимо
+выбрать пункт &quot;Создать комнату&quot;, после чего ввести 
+необходимые данные и согласится с созданием.
+Для удаления необходимо найти в выпадающем списке
+нужную нам комнату и нажать кнопку &quot;Удалить комнату чата&quot;.
+Аналогично для создания пользователя.
+Для изменения прав доступа необходимо
+выбрать кнопку &quot;Изменить права доступа пользователя&quot;,
+выбрать нужного нам пользователя и назначить/удалить права выбрав 
+нужный нам флажок и нажать кнопку &quot;Назначить&quot;.</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

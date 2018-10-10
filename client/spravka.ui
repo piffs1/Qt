@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>spravka</class>
+ <widget class="QWidget" name="spravka">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>565</width>
+    <height>266</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Программа была разработана студентом группы П1-13.
+Для того, чтобы войти в программу необходимо
+ настроить соединение и ввести ваши данные.
+Во вкладке настройки соединения 
+укажите Ваш адрес базы данных, порт и схему БД.
+Во вкладке комнаты есть пункт список доступных комнат.
+ Это комнаты которые доступны Вам на данный момент. 
+Двойным нажатием на кнопку мыши вы откроете окно чата комнаты.</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
