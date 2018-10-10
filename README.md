@@ -1,1 +1,2 @@
 # Qt
+Works with MySQL
